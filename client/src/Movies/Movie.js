@@ -27,7 +27,7 @@ export default function Movie(props) {
   if (!movie) {
     return <div>Loading movie information...</div>;
   }
-
+  const apple = apple;
   const { title, director, metascore, stars } = movie;
 
   return (
